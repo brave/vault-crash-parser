@@ -3,7 +3,25 @@
   "description": "Parse crashes for a specific browser version",
   "env": {
     "BRAVE_VERSIONS": {
-      "desription": "Muon version used to retrieve symbols for electron-debug-symbols"
+      "description": "Muon version used to retrieve symbols for electron-debug-symbols"
+    },
+    "MQ_VERSION": {
+      "description": "Muon version used to select AMQP queue"
+    },
+    "S3_CRASH_KEY": {
+      "description": "AWS Key"
+    },
+    "S3_CRASH_SECRET": {
+      "description": "AWS Secret Key"
+    },
+    "S3_CRASH_BUCKET": {
+      "description": "S3 bucket for crash report storage"
+    },
+    "DATABASE_URL": {
+      "description": "Connection string to Postgres"
     }
-  }
+  },
+  "addons": [
+    "papertrail"
+  ]
 }
