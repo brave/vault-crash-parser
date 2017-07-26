@@ -1,0 +1,29 @@
+{
+  "name": "vault-crash-parser",
+  "version": "1.0.0",
+  "description": "Parse crash reports and store in Postgres and S3",
+  "main": "index.js",
+  "engines": {
+    "node": "7.10.1",
+    "npm": "4.2.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node ./src/crashes-worker.js"
+  },
+  "author": "Brave Developers",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "async": "^2.5.0",
+    "aws-sdk": "^2.88.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "electron-debug-symbols": "github:brave/electron-debug-symbols",
+    "minidump": "brave/node-minidump",
+    "pg": "^6.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "tap": "^10.7.0"
+  }
+}
