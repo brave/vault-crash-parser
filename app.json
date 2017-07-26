@@ -19,6 +19,9 @@
     },
     "DATABASE_URL": {
       "description": "Connection string to Postgres"
+    },
+    "AMQP_URL": {
+      "description": "Connection string to message queue"
     }
   },
   "formation": {
