@@ -20,8 +20,5 @@
     "DATABASE_URL": {
       "description": "Connection string to Postgres"
     }
-  },
-  "addons": [
-    "papertrail"
-  ]
+  }
 }
