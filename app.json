@@ -20,5 +20,13 @@
     "DATABASE_URL": {
       "description": "Connection string to Postgres"
     }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    },
+    "web": {
+      "quantity": 0
+    }
   }
 }
