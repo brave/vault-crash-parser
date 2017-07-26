@@ -1,4 +1,9 @@
 {
   "name": "Crash Parser",
-  "description": "Parse crashes for a specific browser version"
+  "description": "Parse crashes for a specific browser version",
+  "env": {
+    "BRAVE_VERSIONS": {
+      "desription": "Muon version used to retrieve symbols for electron-debug-symbols"
+    }
+  }
 }
