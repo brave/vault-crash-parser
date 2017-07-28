@@ -8,7 +8,7 @@
     "npm": "4.2.0"
   },
   "scripts": {
-    "start": "./node_modules/.bin/babel-node ./src/crashes-worker.js"
+    "startworker": "./node_modules/.bin/babel-node ./src/crashes-worker.js"
   },
   "author": "Brave Developers",
   "license": "ISC",
