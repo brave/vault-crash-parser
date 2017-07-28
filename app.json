@@ -26,7 +26,8 @@
   },
   "formation": {
     "worker": {
-      "quantity": 1
+      "quantity": 1,
+      "performance": "standard-2x"
     },
     "web": {
       "quantity": 0
